@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------------------text crl----opacity---------------- */
+
+.clr_darkblue {
+  color: #2c49fe;
+}
+.clr_lightblue {
+  color: #01c8ff;
+}
+.clr_black {
+  color: #000000;
+}
+.opacity_06 {
+  opacity: 0.6;
+}
+/* -------------------font weight----- gap----------- */
+.gap_8 {
+  gap: 8px;
+}
+.gap_11 {
+  gap: 11px;
+}
+.gap_13 {
+  gap: 13px;
+}
+.gap_15 {
+  gap: 15px;
+}
+.gap_21 {
+  gap: 21px;
+}
+.gap_35 {
+  gap: 35px;
+}
+.gap_60 {
+  gap: 60px;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_800 {
+  font-weight: 800;
+}
+
+/* ----------------------------------Btn--------------------------- */
+.logoutBtn {
+  color: white;
+  padding: 11px 28px;
+  border-radius: 23px;
+  background: #2c49fe;
+  transition: 300ms linear;
+  border: 1px solid #2c49fe;
+}
+
+.logoutBtn:hover {
+  color: #2c49fe;
+  background-color: white;
+}
+.navShadow {
+  background: #fff;
+  box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.05);
+  padding: 17px 0;
+}
+.navLi:hover {
+  -webkit-text-stroke: 1px;
+}
+.JourneyBtn {
+  color: black;
+  border-radius: 23px;
+  background: rgba(44, 73, 254, 0.1);
+  padding: 11px 28px;
+  transition: 350ms all linear;
+  border: none;
+}
+.JourneyBtn:hover {
+  color: white;
+  background-color: #2c49fe;
+}
+.postCmtBTn {
+  color: white;
+  transition: 350ms all linear;
+  padding: 11px 28px;
+  border-radius: 36px;
+  background: #2c49fe;
+  border: 1px solid #2c49fe;
+}
+.postCmtBTn:hover {
+  color: #2c49fe;
+  background-color: white;
+}
+
+/* ------------------------------hero section----------------------- */
+.logoPointer {
+  cursor: pointer;
+}
+.py_67_134 {
+  padding: 67px 0 134px;
+}
+.my_12_16 {
+  margin: 12px 0 16px;
+}
+.mb_38 {
+  margin-bottom: 38px;
+}
+
+/* -----------------------------semi colon ----------------- */
+
+.mt_22 {
+  margin-top: 22px;
+}
+.setPosition1 {
+  left: 45%;
+  top: 40%;
+  transform: translate(-50% -50%);
+  cursor: pointer;
+}
+.pb_55 {
+  padding-bottom: 55px;
+}
+
+/* --------------------------------------gallery -- tell us ------------------ */
+.doubleClrline {
+  position: relative;
+}
+.doubleClrline::after {
+  content: " ";
+  width: 101px;
+  height: 8px;
+  background-color: #2c49fe;
+  position: absolute;
+  top: -2%;
+  left: 20%;
+}
+.doubleClrline::before {
+  content: " ";
+  width: 115px;
+  height: 8px;
+  background-color: #01c8ff;
+  position: absolute;
+  top: -2%;
+  left: 20%;
+}
+.py_75 {
+  padding: 75px 0;
+}
+/*  */
+.py_16_47 {
+  padding: 16px 0 47px;
+}
+.pb_118 {
+  padding-bottom: 118px;
+}
+.postComment {
+  border-radius: 35px;
+  border: 1px solid #9ca1be;
+  background: #fff;
+  padding: 8px;
+}
+.mt_47 {
+  margin-top: 47px;
+}
+.pt_10 {
+  padding-top: 10px;
+}
+.useName {
+  border-radius: 0px 20px 20px 20px;
+  background: #f1f2f5;
+  padding: 14px 20px 20px 20px;
+}
+.pst_20_8 {
+  padding: 8px 0px 0px 20px;
+}
+
+.profilePic {
+  /* border-radius: 56px; */
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.mb_24 {
+  margin-bottom: 24px;
+}
+.py_81_25 {
+  padding: 81px 0 25px;
+}
+.footerbg {
+  background: #000;
+}
+.mxw_346 {
+  max-width: 346px;
+}
+.py_36_24 {
+  padding: 36px 0 24px;
+}
+
+.pt_95 {
+  padding-top: 95px;
+}
+.txtArea {
+  height: 30px;
+  outline: none;
+  width: 211px;
+  resize: none;
+}
