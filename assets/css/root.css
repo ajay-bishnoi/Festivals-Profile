@@ -52,8 +52,14 @@
   .pt_95 {
     padding-top: 85px;
   }
+  .gridBox {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 18px;
+    column-gap: 18px;
+  }
 }
-
 @media (max-width: 1200px) {
   :root {
     --fs--xsm: 12px;
@@ -96,6 +102,10 @@
   }
   .gap_11 {
     gap: 8px;
+  }
+  .gridBox {
+    row-gap: 16px;
+    column-gap: 16px;
   }
 }
 
@@ -192,6 +202,16 @@
   .py_67_134 {
     padding: 70px 0;
   }
+  .gridBox {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 12px;
+    column-gap: 12px;
+  }
+  .py_75 {
+    padding: 70px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -229,6 +249,33 @@
   }
   .py_67_134 {
     padding: 60px 0;
+  }
+  .gItem2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .gItem3 {
+    grid-row: 1/3;
+    grid-column: 2/3;
+  }
+  .gItem4 {
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+  .gItem6 {
+    grid-row: 4/5;
+    grid-column: 1/3;
+  }
+  .gItem5 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  .py_75 {
+    padding: 60px 0;
+  }
+  .gridBox {
+    row-gap: 15px;
+    column-gap: 15px;
   }
 }
 
@@ -280,5 +327,15 @@
   }
   .py_67_134 {
     padding: 60px 0;
+  }
+  .gridBox {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+  .py_75 {
+    padding: 50px 0;
   }
 }
